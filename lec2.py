@@ -21,7 +21,11 @@ with sr.Microphone() as source:
         print("you said   : ".format(text))
     except:
         print("sorry")
-        
+         try:
+        text=r.recognize_google(audio)
+        print("you said   : ".format(text))
+    except:
+        print("sorry")
 ---------------------------------------------------
 pip install pyqt5
 
