@@ -35,15 +35,7 @@ from PyQt5.QtWidgets import QApplication, QWidget
 
 from PyQt5.QtGui import QIcon
 
-class App(QWidget):
-    def __init__(self):
-        super().__init__()
-        self.title="simple window"
-        self.left=10
-        self.top=10
-        self.width=640
-        self.height=480
-        self.initUI()
+
         
     
          
